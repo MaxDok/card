@@ -12,6 +12,10 @@ $(document).ready(function(){
         $('.parallax__fog').css('transform','scale('+z_1+')');
         $('.parallax__fog').css('opacity',o);
 
+        var z_1 = 1+(w/100*p_b);
+        $('.mouse').css('transform','scale('+z_1+')');
+        $('.mouse').css('opacity',o);
+
         var z_2 = 1+(w/5000000*p)
         $('.parallax__space_1').css('transform','scale('+z_2+')');
 
